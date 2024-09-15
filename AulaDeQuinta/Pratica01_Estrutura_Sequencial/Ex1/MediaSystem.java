@@ -14,5 +14,6 @@ public class MediaSystem{
     Media = (Num1 + Num2 + Num3) / 3;
     
     System.out.println("A media das suas notas é: " + Media);
+    teclado.close();
     }
 }
