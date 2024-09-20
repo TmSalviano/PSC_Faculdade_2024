@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Area{
+public class AreaLosangoSystem{
     public static void main (String args[]){
         Scanner teclado = new Scanner (System.in);
     Double DiagonalMaior, DiagonalMenor, Area ;

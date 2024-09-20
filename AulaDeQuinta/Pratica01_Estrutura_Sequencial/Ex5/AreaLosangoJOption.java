@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class AreaLosango{
+public class AreaLosangoJOption{
     public static void main (String args[]){
     Double DiagonalMaior, DiagonalMenor, Area ;
      DiagonalMaior = Double.parseDouble(JOptionPane.showInputDialog("Informe o tamanho da diagonal maior: "));
