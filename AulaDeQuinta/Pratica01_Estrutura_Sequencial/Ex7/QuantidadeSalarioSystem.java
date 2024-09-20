@@ -1,5 +1,5 @@
 import java.util.*;
-public class Salario{
+public class QuantidadeSalarioSystem{
     public static void main (String args[]){
         Scanner teclado = new Scanner(System.in);
     int SalarioMinimo, SalarioBruto, Valor;
