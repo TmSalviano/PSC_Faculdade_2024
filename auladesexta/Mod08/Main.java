@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         try (var keyboard = new Scanner(System.in)) {
 
+            //Nao houve pedido para testar a class Time
             //Teste Circulo
             System.err.println("Insira o valor da coordenada x:");
             int coordenadaX = keyboard.nextInt();
@@ -17,7 +18,7 @@ public class Main {
 
             int answer = Integer.MAX_VALUE;
             while (answer != 4) {
-                System.err.println("1 - Mover");
+                System.err.println("\n1 - Mover");
                 System.err.println("2 - Aumentar");
                 System.err.println("3 - Imprimir");
                 System.err.println("4 - Sair");
@@ -41,7 +42,7 @@ public class Main {
                 }
 
                 //Teste Produto
-                System.out.println("Informe o nome do primeiro produto:");
+                System.out.println("\nInforme o nome do primeiro produto:");
                 String nome1 = keyboard.nextLine();
                 System.out.println("Informe o preço do primeiro produto:");
                 double preco1 = keyboard.nextDouble();
@@ -71,11 +72,11 @@ public class Main {
                 int opcao;
                 do {
                     System.out.println("\nEscolha uma opção:");
-                    System.out.println("1 – Multiplicação");
-                    System.out.println("2 – Potência");
-                    System.out.println("3 – Divisão");
-                    System.out.println("4 – Par");
-                    System.out.println("5 – Sair");
+                    System.out.println("1 - Multiplicação");
+                    System.out.println("2 - Potência");
+                    System.out.println("3 - Divisão");
+                    System.out.println("4 - Par");
+                    System.out.println("5 - Sair");
 
                     opcao = keyboard.nextInt();
 
